@@ -1,0 +1,35 @@
+.nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    width: 90vw;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+    flex-direction: row;
+}
+
+.logotype{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: space-evenly;
+}
+
+.logotype h3{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.logotype h4{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+}
+

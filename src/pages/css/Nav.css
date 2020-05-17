@@ -1,0 +1,40 @@
+.nav-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 77.5vh;
+    width: 100vw;
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 65vw;
+    background-color: grey;
+}
+
+.nav-social{
+    display: flex;
+    align-items: flex-end;
+    width: 20vw;
+    height: 65vh;
+    border-left: 0.5vw solid white;
+    background-color: black;
+}
+
+.nav-social-links{
+    display: flex;
+    height: 35vh;
+    width: 20vw;
+    background-color: grey;
+}

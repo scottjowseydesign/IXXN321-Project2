@@ -1,0 +1,36 @@
+.project-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 145vh;
+    background-color: rgb(58, 58, 58);
+}
+
+.project-blurb{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.project-image-wrap{
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.project-image{
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.project-summary{
+    height: 750vh;
+    width: 100vw;
+    border-top: 2.5vh solid black;
+    border-bottom: 2.5vh solid black;
+    background-color: white;
+}
