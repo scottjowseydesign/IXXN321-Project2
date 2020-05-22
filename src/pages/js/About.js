@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/About.css";
 
-import NavBar from "../../components/js/Nav";
+// import NavBar from "../../components/js/Nav";
 import Footer from "../../components/js/Footer";
 
 export default function About() {
@@ -9,7 +9,7 @@ export default function About() {
         <div className = "about-wrap">
             <div className = "about-box">
                 <div className = "feature-image">
-                    <NavBar />
+                    {/* <NavBar /> */}
                     <h1>IMAGE</h1>
                 </div>
                 <div className = "about-blurb">

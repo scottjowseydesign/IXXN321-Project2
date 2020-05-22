@@ -1,3 +1,10 @@
+.project-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
 .project-feature{
     display: flex;
     flex-direction: column;
@@ -24,13 +31,100 @@
 .project-image{
     height: 90vh;
     width: 100vw;
-    background-color: black;
+    background-color: grey;
 }
 
 .project-summary{
-    height: 750vh;
-    width: 100vw;
-    border-top: 2.5vh solid black;
-    border-bottom: 2.5vh solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 150vh;
+    width: 80vw;
+    /* border-top: 1.5vh solid black;
+    border-bottom: 1.5vh solid black; */
     background-color: white;
 }
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150vh;
+    width: 45vw;
+}
+
+.summary-box{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30vw;
+}
+
+.image1{
+    height: 65vh;
+    width: 35vw;
+    background-color: grey;
+}
+
+.project-imagery{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 130vh;
+    width: 80vw;
+    border-top: 1.5vh solid black;
+    border-bottom: 1.5vh solid black;
+    margin-top: 20vh;
+}
+
+.image-slideshow{
+    display: flex;
+    height: 80vh;
+    width: 300vw;
+    background-color: grey;
+}
+
+.project-reflection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    width: 80vw;
+    border-bottom: 1.5vh solid black;
+    margin-bottom: 20vh;
+}
+
+.project-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 135vh;
+    width: 100vw;
+    background-color: rgb(58, 58, 58);
+}
+
+.link-box{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 90vw;
+    background-color: black;
+}
+
+
+.next{
+   display: flex;
+   width: 90vw;
+   height: auto;
+   background-color: grey;
+}
+
+.footer{
+    width: 100vw;
+    height: 35vh;
+    background-color: black;
+}
+
