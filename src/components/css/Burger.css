@@ -33,6 +33,7 @@
 /* Close Button */
 
 .closeNav{
+    position: relative;
     margin-top: 3%;
     margin-left: 92.5%;
     margin-right: 5%;
@@ -41,9 +42,7 @@
     background-color: transparent;
     border: none;
     box-sizing: border-box; 
-    /* background-color: black; */
     z-index: 200;
-
 }
 
 .closeNav img{

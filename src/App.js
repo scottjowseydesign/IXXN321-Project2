@@ -5,7 +5,7 @@ import './App.css';
 import Home from "./pages/js/Home";
 import About from "./pages/js/About";
 import Rings from "./pages/js/Rings";
-import Contact from "./pages/js/Contact";
+// import Contact from "./pages/js/Contact";
 // import HomeBox from "./components/js/Home";
 // import Footer from "./components/js/Footer";
 import CloseNav from "./components/js/closeNav";
@@ -51,7 +51,7 @@ class App extends Component {
           <Route path="/nav" component={Nav} />
           <Route path="/about" component={About} />
           <Route path="/rings" component={Rings} />
-          <Route path="/contact" component={Contact} />
+          {/* <Route path="/contact" component={Contact} /> */}
           
         </Router>
         

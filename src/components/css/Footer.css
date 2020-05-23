@@ -1,5 +1,88 @@
 .Footer-box{
-    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
     width: 100vw;
-    background-color: rgb(58, 58, 58);
+    background-color: #1d1d1d;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90vw;
+    height: 20vh;
+}
+
+.footer-left{
+    display: flex;
+    align-items: flex-end;
+    height: 15vh;
+    width: 40vh;
+
+}
+
+.logo-links{
+    display: flex;
+    align-items: flex-end;
+    height: 20vh;
+    width: 15vw;
+}
+
+.logo-links img{
+    height: 17.5vh;
+    width: auto;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 17.5vh;
+    width: 12.5vw;
+
+}
+
+.footer-mid{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 5vh;
+    width: 30vw;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 5vh;
+    width: 20vw;
+}
+
+.footer-right p{
+    margin: 0;
+    color: grey;
+    font-size: 0.75em;
+}
+
+.footer-links:hover{
+    color: orangered;
+}
+
+.footer-links{
+    letter-spacing: 0.1rem;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.social-footer{
+    font-size: 0.75em;
+    letter-spacing: 0.1rem;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.social-footer:hover{
+    color: orangered;
 }

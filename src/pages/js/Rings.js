@@ -1,27 +1,43 @@
 import React from 'react';
 import "../css/Rings.css";
+import MinimumRing from "../../assets/minimum-ring.JPG"; 
+import Render1 from "../../assets/render-1.jpg";
+import Render2 from "../../assets/render-2.jpg";
+import ArrowR from "../../assets/arrow-r.png";
+import ArrowL from "../../assets/arrow-l.png";
+import Footer from "../../components/js/Footer"
+
+import Cordyceps from "../../assets/cordyceps.JPG";
+
 
 export default function Rings() {
     return (
         <div className = "project-wrap">
             <div className = "project-feature">
-                <h1>IMAGE</h1>
+                    <p>3D PRODUCT DESIGN PROJECT</p>
+                    <h1>ANATOMICAL<br></br> TOLERANCE</h1>
             </div>
             <div className = "project-blurb">
+                <div className="blurb-info">
+                    <h2>SUMMARY</h2>
+                     <p>Anatomical Tolerance was a project which involved producing three rings demonstrating the notion of being "minimum, maximum and ideal” sized. These rings were created using the CAD program Fusion 360 and were produced using the Stratasys J750 3D Printer. One of the rings was also sent to a US-based company called Shapeways who produced the ring using any material of our choice. The project specifically looked into creating designs which best utilised the printer's colour and material capabilities.
+                     </p>
+                </div>
             </div>
 
             <div className = "project-image-wrap">
                 <div className = "project-image">
+                    <img src= { MinimumRing }  alt="Ring Project Photography" />
                 </div>
             </div>
 
             <div className = "project-summary">
                 <div className = "image-box">
                     <div className = "image1">
-
+                        <img src= { Render1 }  alt="Ring Render" />
                     </div>
                     <div className = "image1">
-
+                        <img src= { Render2 }  alt="Ring Render" />
                     </div>
                 </div>
                 <div className = "summary-box">
@@ -48,26 +64,32 @@ export default function Rings() {
             <div className = "project-links">
                 <div className = "link-box">
                     <div className = "previous">
-                        <h2>PREVIOUS</h2>
-                        <h2>SUPPLY SUPERMARKET APP</h2>
+                        <div className="line2">
+                            <img src= { ArrowL }  alt="Page Link Arrow" />
+                            <h2>PREVIOUS</h2>
+                        </div>
+                        <div className="line2">
+                            <h3>SUPPLY SUPERMARKET APP</h3>
+                        </div>
                     </div>
 
                     <div className = "next">
                         <div className = "next-link">
-                            <h1>NEXT</h1>
-                            <h1>CORDYCEPS</h1>
+                            <div className="line1">
+                                <h1>NEXT</h1>
+                                <img src= { ArrowR }  alt="Page Link Arrow" />
+                            </div>
+                            <div className="line1">
+                                <h1>CORDYCEPS</h1>
+                            </div>
                         </div>
                         <div className = "next-image">
-
+                            <img src= { Cordyceps }  alt="Cordyceps Project" />
                         </div>
                     </div> 
                 </div>
-
-                <div className = "footer">
-                    
-                </div>
             </div>
-
+            <Footer />
         </div>
     )
 }
