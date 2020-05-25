@@ -5,13 +5,9 @@ import './App.css';
 import Home from "./pages/js/Home";
 import About from "./pages/js/About";
 import Rings from "./pages/js/Rings";
-// import Contact from "./pages/js/Contact";
-// import HomeBox from "./components/js/Home";
-// import Footer from "./components/js/Footer";
 import CloseNav from "./components/js/closeNav";
 import Nav from "./components/js/Nav";
 import NavBanner from "./components/js/Nav-Banner";
-// import render from '@testing-library/react';
 
 
 class App extends Component {
@@ -51,7 +47,6 @@ class App extends Component {
           <Route path="/nav" component={Nav} />
           <Route path="/about" component={About} />
           <Route path="/rings" component={Rings} />
-          {/* <Route path="/contact" component={Contact} /> */}
           
         </Router>
         

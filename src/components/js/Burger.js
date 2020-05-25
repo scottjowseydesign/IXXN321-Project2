@@ -5,7 +5,6 @@ const Burger = props => (
     <div className="toggle-button" onClick = {props.click}>
         <div className="burger-line" />
         <div className="burger-line2" />
-        <div className="burger-line" />
     </div>
 );
 

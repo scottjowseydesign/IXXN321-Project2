@@ -81,7 +81,6 @@
 .project-image{
     height: 90vh;
     width: 100vw;
-    background-color: grey;
 }
 
 .project-image img{
@@ -116,6 +115,10 @@
     width: 25vw;
 }
 
+.summary-box p{
+    line-height: 1.75em;
+}
+
 .image1{
     display: flex;
     align-items: center;
@@ -133,8 +136,8 @@
 .project-imagery{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 130vh;
+    justify-content: space-around;
+    height: 110vh;
     width: 80vw;
     border-top: 1.5vh solid black;
     border-bottom: 1.5vh solid black;
@@ -142,11 +145,35 @@
 }
 
 .image-slideshow{
-    display: flex;
-    height: 80vh;
-    width: 300vw;
+    display: grid;
+    grid-gap: calc(var(--gutter) / 2);
+     grid-template-rows: minmax(80vh, 1vw);
+     grid-auto-flow: column;
+    grid-auto-columns: calc(50% - var(--gutter) * 2);
+
+    overflow-y: hidden;
     overflow-x: scroll;
-    background-color: grey;
+    scroll-snap-type: x proximity;
+  /* padding-bottom: calc(.75 * var(--gutter)); */
+  /* margin-bottom: calc(-.25 * var(--gutter)); */
+
+}
+
+.image-slideshow::-webkit-scrollbar{
+    display: none;
+  }
+
+
+.slidebox {
+    display: inline-block;
+    width: 60vw;
+    height: 90vh;
+    /* background-color: black; */
+}
+
+.slidebox img{
+    height: 90%;
+    width: auto;
 }
 
 .project-reflection{
@@ -186,7 +213,7 @@
     justify-content: flex-end;
     height: 75vh;
     width: 17.5vw;
-    /* background-color: sandybrown; */
+    cursor: pointer;
 }
 
 
@@ -196,8 +223,8 @@
    justify-content: flex-start;
    width: 65vw;
    height: 47.5vh;
-   /* background-color: grey; */
 }
+
 
 .next-link{
     position: absolute;
@@ -207,6 +234,11 @@
     height: auto;
     width: 35vw;
     z-index: 1;
+    cursor: pointer;
+}
+
+.next:hover{
+    color: black;
 }
 
 .line1{
@@ -262,6 +294,7 @@
     width: 35vw;
     height: 45vh;
     z-index: 0;
+    cursor: pointer;
 }
 
 .next-image img{

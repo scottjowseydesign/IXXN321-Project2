@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/Nav.css";
 import { Link } from "react-router-dom";
 import ScottLogo from "../../assets/black-logo.png";
-// import CloseNav from "../js/closeNav";  
+
 
 const navBanner = props => {
     let navClasses = 'nav-page';
@@ -24,6 +24,7 @@ const navBanner = props => {
             <div className = "nav-box">
                 <div className="wrap-nav">
                     <div className="nav-items">
+
                         <Link to = "/rings " className = "navbar-links">PROJECTS</Link>
                         <Link to= "/about" className = "navbar-links">ABOUT</Link>
                         <Link to= "/contact" className = "navbar-links">CONTACT</Link>

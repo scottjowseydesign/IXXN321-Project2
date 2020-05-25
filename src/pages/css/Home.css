@@ -12,14 +12,14 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 150vh;
+    height: 175vh;
     width: 100vw;
     background-color: black;
 }
 
 .portfolio-title{
     position: absolute;
-    top: 60vh;
+    top: 72.5vh;
     width: 60vw;
     height: auto;
     z-index: 90;
@@ -30,14 +30,40 @@
     font-size: 9em;
     letter-spacing: 0.125em;
     color: white;
+    margin: 0;
 }
 
 .image-slide{
-      margin-top: 30vh;
+      margin-top: 15vh;
       width: 55vw;
       height: 55vh;
-      background-color: orangered;
       z-index: 0;
+      display: grid;
+
+      scroll-snap-align: center;
+      grid-gap: calc(var(--gutter) / 3);
+      grid-template-rows: minmax(55vh, 1vw);
+      grid-auto-flow: column;
+      grid-auto-columns: calc(50% - var(--gutter) * 2);
+
+      overflow-y: hidden;
+      overflow-x: scroll;
+      scroll-snap-type: x proximity;
+}
+
+.image-slide::-webkit-scrollbar{
+  display: none;
+}
+
+.slidediv{
+    display: inline-block;
+    width: 50vw;
+    height: 55vh;
+}
+
+.image-slide img{
+  width: 50vw;
+  height: auto;
 }
 
 .about-me{
@@ -45,10 +71,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 80vw;
-  height: 100vh;
+  width: 90vw;
+  height: 75vh;
   background-color: black;
-  /* margin-top: 5vh; */
 }
 
 .about-me h1{
@@ -56,6 +81,7 @@
   color: white;
   letter-spacing: 0.125em;
   font-size: 4em;
+  
 }
 
 .about-blurb2{
@@ -63,7 +89,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 80vw;
+  width: 90vw;
   height: 80vh;
   background-color: black;
 }
@@ -89,36 +115,48 @@
   color: white;
   letter-spacing: 0.125em;
   font-size: 2.5em;
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 
 .blurb-link{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   height: auto;
-  width: 22.5vw;
-  margin-left: 10vw;
+  width: 25vw;
+  margin-left: 5vw;
+  cursor: pointer;
+}
+
+.blurb-link img:hover{
+  opacity: 50%;
+}
+
+.blurb-link h4:hover{
+  letter-spacing: 0.175em;
+  opacity: 50%;
 }
 
 .blurb-link img{
   width: 5vw;
   height: auto;
+  margin-right: 2em;
 }
 
 .blurb-link h4{
   color: white;
   letter-spacing: 0.1em;
   font-weight: 500;
+  font-size: 1.1em;
 }
 
-
+/* Projects Section */
   
 .home-projects{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 250vh;
   width: 100vw;
-  background-color: grey;
 }
 
 .project-header{
@@ -135,7 +173,7 @@
 }
 
 .project-header h1{
-  color: white;
+  color: black;
   letter-spacing: 0.1em;
   font-size: 9em;
   writing-mode: vertical-rl;
@@ -149,7 +187,7 @@
   justify-content: space-evenly;
   height: 250vh;
   width: 70vw;
-  background-color: brown;
+  /* background-color: brown; */
 }
 
 .project-box{
@@ -158,23 +196,109 @@
   align-items: center;
   height: 60vh;
   width: 70vw;
-  background-color: chartreuse;
 }
 
 .project-info{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 50vh;
-  width: 20vw;
+  width: 17.5vw;
+  /* background-color: black; */
+}
+
+.project-infobox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 25vh;
+  width: 15vw;
+  /* background-color: white; */
+}
+
+.project-date{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  width: 7.5vw;
+  /* background-color: black; */
+}
+
+.project-year p{
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.project-month p{
+  letter-spacing: 0.1em;
+}
+
+.date-hyphen{
+  width: 2vw;
+  height: 0.2vh;
   background-color: black;
 }
 
+.project-desc{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5vh;
+  width: 15vw;
+  /* background-color: black; */
+}
+
+.project-desc h3{
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  color: rgb(58, 58, 58);
+}
+
+.project-name{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  width: 15vw;
+  /* background-color: black; */
+}
+
+.project-name h2{
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  font-size: 2.5em;
+  /* color: rgb(58, 58, 58); */
+}
+
+.project-link{
+  display: flex;
+  height: 7.5vh;
+  width: 3vw;
+  cursor: pointer;
+}
+
+.project-link img{
+  width: 3.5vw;
+  height: auto;
+}
+
+.project-link img:hover{
+  opacity: 50%;
+}
+
 .project-link-image{
+  display: flex;
+  justify-content: center;
   height: 50vh;
   width: 45vw;
-  background-color: cyan;
+}
+
+.project-link-image img{
+  height: 55vh;
+  width: 45vw;
 }
 
 .contact-wrap{
@@ -182,7 +306,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 95vh;
+  height: 120vh;
   background-color: #1d1d1d;
 }
 
@@ -191,7 +315,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  height: 70vh;
+  height: 80vh;
   width: 80vw;
 }
 
