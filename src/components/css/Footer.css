@@ -89,4 +89,32 @@
     opacity: 50%;
 }
 
+
+@media only screen and (max-width: 376px) {
+
+    /* Footer Bar */
+
+    .footer-wrap{
+        border-top: 0.25vh solid white;
+    }
+
+    .footer-left{
+        display: none;
+    }
+
+    .footer-mid{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 12.5vh;
+        width: 30vw;
+    }
+
+    .footer-right{
+        width: 50vw;
+        height: 5vh;
+        font-size: 0.75em;
+    }
+}
     

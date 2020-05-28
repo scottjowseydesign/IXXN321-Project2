@@ -29,12 +29,10 @@ const navBanner = props => {
                         <Link to= "/about" className = "navbar-links">ABOUT</Link>
                         <Link to= "/contact" className = "navbar-links">CONTACT</Link>
                     </div>
-                    <div className = "nav-social">
-                        <div className = "nav-social-links">
-
-                        </div>
-                    </div>
                 </div>
+                
+            </div>
+            <div className = "nav-overlay">
             </div>
 
         </div>

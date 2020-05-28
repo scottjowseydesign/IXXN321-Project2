@@ -5,6 +5,7 @@ import Footer from "../../components/js/Footer";
 import CircleLink from "../../assets/circle-link.png";
 import BlackCircleLink from "../../assets/circle-link-black.png";
 import "../css/Home.css";
+import "../css/Home-Mobile.css";
 import Cordyceps from "../../assets/cordyceps.JPG";
 import Anatomical from "../../assets/ring-feature.JPG";
 import Supply from "../../assets/supply.jpg";
@@ -19,9 +20,11 @@ export default function Home() {
                 <div className = "home-background">
                     <div className="portfolio-title">
                         <Fade left>
-                            <h1>PORTFOLIO</h1>
-                            <h1>OF</h1>
-                            <h1>SCOTT</h1> <h1>JOWSEY.</h1>
+                            <h1>PORTFOLIO <br></br>
+                            OF <br></br>
+                            SCOTT <br></br>
+                            JOWSEY.                            
+                            </h1>
                         </Fade>
                     </div>
                     <div className = "image-slide">
@@ -51,7 +54,7 @@ export default function Home() {
                 </div>
                 <div className="about-blurb2">
                     <Fade bottom>
-                    <h2>BLURB ABOUT HOW I <br></br> APPROACH DESIGN AND <br></br>WHAT I CREATE</h2>
+                    <h2>I DESIGN AND DEVELOP <br></br> EXPERIENCES THAT <br></br>MAKE PEOPLE'S <br></br>LIVES SIMPLE</h2>
                     </Fade>
                 </div>
                 <div className="about-blurb-link">

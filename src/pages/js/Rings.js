@@ -1,5 +1,7 @@
 import React from 'react';
 import "../css/Rings.css";
+
+
 import MinimumRing from "../../assets/minimum-ring.JPG"; 
 import Render1 from "../../assets/render-1.jpg";
 import Render2 from "../../assets/render-2.jpg";
@@ -120,9 +122,7 @@ export default function Rings() {
 
             <div className = "project-reflection">
                 <Fade right>
-                    <h1>WHAT I LEARNT FROM PROJECT</h1>
-                    <h1>OR</h1>
-                    <h1>REFLECTION OF PROJECT</h1>
+                    <h1>This project taught me about the tolerances within the CAD program Fusion 360 and allowed me to create a product that utilised them successfully.</h1>
                 </Fade>
             </div>
 
@@ -148,7 +148,7 @@ export default function Rings() {
                                     <img src= { ArrowR }  alt="Page Link Arrow" />
                                 </div>
                                 <div className="line1">
-                                    <h1>CORDYCEPS</h1>
+                                    <h2>CORDYCEPS</h2>
                                 </div>
                             </div>
                             <div className = "next-image">

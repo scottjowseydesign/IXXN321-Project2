@@ -147,21 +147,19 @@
 .image-slideshow{
     display: grid;
     grid-gap: calc(var(--gutter) / 2);
-     grid-template-rows: minmax(80vh, 1vw);
-     grid-auto-flow: column;
+    grid-template-rows: minmax(80vh, 1vw);
+    grid-auto-flow: column;
     grid-auto-columns: calc(50% - var(--gutter) * 2);
 
     overflow-y: hidden;
     overflow-x: scroll;
     scroll-snap-type: x proximity;
-  /* padding-bottom: calc(.75 * var(--gutter)); */
-  /* margin-bottom: calc(-.25 * var(--gutter)); */
 
 }
 
-.image-slideshow::-webkit-scrollbar{
+/* .image-slideshow::-webkit-scrollbar{
     display: none;
-  }
+  } */
 
 
 .slidebox {
@@ -256,6 +254,12 @@
     color: white;
 }
 
+.line1 h2{
+    margin:0;
+    font-size: 7.5em;
+    color: grey;
+}
+
 .line1 img{
     max-height: 12.5vh;
     width: auto;
@@ -300,4 +304,226 @@
 .next-image img{
     max-width: 35vw;
     height: 45vh;
+}
+
+
+@media only screen and (max-width: 376px) {
+
+    /* Title Section */
+
+    .project-feature{
+        display: flex;
+        justify-content: flex-end;
+        height: 40vh;
+        width: 100vw;
+        background-color: black;
+    }
+
+    .project-feature img{
+        height: 80vh;
+        width: 100vw;
+    }
+
+    .project-feature p{
+        font-size: 0.75em;
+    }
+
+    .project-feature h1{
+        font-size: 2.5em;
+        margin-bottom: 2vh;
+    }
+
+
+    /* Project Blurb Section */
+
+    .project-blurb{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .blurb-info{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80vw;
+        height: 70vh;
+    }
+
+    .blurb-info p{
+        font-size: 0.9em;
+        font-weight: 300;
+    }
+
+    .blurb-info h2{
+        font-size: 1.5em;
+    }
+
+    /* Project Image Divider */
+
+    .project-image-wrap{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .project-image{
+        width: 100vw;
+        height: auto;
+    }
+
+    .project-image img{
+        width: 100vw;
+        height: auto;
+    }
+
+
+    /* Project Summary Section */
+
+    .project-summary{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .summary-box{
+        width: 80vw;
+        height: auto;
+    }
+
+    .image-box{
+        display: none;
+    }
+
+    .image1{
+        display: none;
+    }
+
+    /* Project Imagery Section */
+
+    .project-imagery{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 90vw;
+        height: auto;
+        border-top: 0.5vh solid black;
+        border-bottom: 0.5vh solid black;
+
+    }
+
+    .imagery-text{
+        width: 80vw;
+        height: auto;
+        margin-left: 5vw;
+    }
+
+    .image-slideshow{
+        grid-template-rows: minmax(40vh, 1vw);
+
+    }
+
+    .slidebox{
+        width: auto;
+        height: 100%;
+    }
+
+    .project-reflection{
+        height: 80vh;
+        width: 80vw;
+        border-bottom: 0.5vh solid black;
+        margin-bottom: 10vh;
+    }
+
+    /* Project Links Section */
+
+    .project-links{
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link-box{
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .next{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .next-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .next-image{
+        display: none;
+    }
+
+    .line1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .line1 h1{
+        font-size: 3em;
+    }
+
+    .line1 h2{
+        font-size: 3em;
+    }
+
+    .line1 img{
+        width: 25%;
+        height: auto;
+        margin-left: 2.5vw;
+    }
+
+
+    .previous{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .line2{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 90vw;
+        height: 5vh;
+    }
+
+    .line2 h2{
+        font-size: 1.5em;
+    }
+
+    .line2 h3{
+        font-size: 1em;
+    }
+
+    .line2 img{
+        width: auto;
+        max-height: 50%;
+        margin-right: 2.5vw;
+    }
+
 }

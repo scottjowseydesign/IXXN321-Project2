@@ -1,0 +1,219 @@
+
+@media only screen and (max-width: 425px) {
+
+    /* Home Page */
+
+    .home-start{
+        height: 200vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .image-slide{
+        height: 25vh;
+        width: 85vw;
+        margin-top: 10vh;
+        grid-template-rows: minmax(25vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 25vh;
+        width: 75vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        margin-top: 45vh;
+        width: 80vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 3em;
+    }
+
+    .about-me{
+        height: 25vh;
+        width: auto;
+    }
+
+    .about-me h1{
+        font-size: 1.75em;
+        margin-left: 5vw;
+        margin-top: 2vh;
+    }
+
+    .about-blurb2{
+        height: 40vh;
+        width: auto;
+    }
+
+    .about-blurb2 h2{
+        font-size: 1.5em;
+    }
+
+    .about-blurb-link h3{
+        font-size: 1.25em;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 250vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .title-wrap h1{
+        writing-mode: horizontal-tb;
+        font-size: 2em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 250vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 70vh;
+        width: 90vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: 25vh;
+        width: 80vw;
+    }
+
+    .project-link-image img{
+        height: 25vh;
+        width: 80vw;
+    }
+
+    .project-info{
+        height: 40vh;
+        width: 80vw;
+    }
+
+    .project-infobox{
+        width: 75vw;
+        height: 22.5vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 100%;
+    }
+
+    .project-date{
+        width: 35vw;
+    }
+
+    .date-hyphen{
+        width: 10vw;
+        height: 0.1vh;
+    }
+
+    .project-name h2{
+        margin: 0;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action Section*/
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box h1{
+        font-size: 3em;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .email-link{
+        width: 50vw;
+        height: auto;
+    }
+
+    .email-link h3{
+        font-size: 0.9em;
+    }
+ 
+
+}

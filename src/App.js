@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App" >
         
         <Router>
-          {closeNav }
+          { closeNav }
           <Nav burgerClickHandler={this.burgerClickHandler} />
           <NavBanner show={this.state.navBannerOpen} />          
           
