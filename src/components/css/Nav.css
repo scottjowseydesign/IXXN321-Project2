@@ -229,9 +229,9 @@
     }
 
     .navbar-links:hover{
-        transition: none;
-        transform: none;
-        opacity: 100;
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
     }
 
 
@@ -331,9 +331,9 @@
     }
 
     .navbar-links:hover{
-        transition: none;
-        transform: none;
-        opacity: 100;
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
     }
 
 
@@ -433,9 +433,9 @@
     }
 
     .navbar-links:hover{
-        transition: none;
-        transform: none;
-        opacity: 100;
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
     }
 
 
@@ -537,9 +537,9 @@
     }
 
     .navbar-links:hover{
-        transition: none;
-        transform: none;
-        opacity: 100;
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
     }
 
 
@@ -566,8 +566,8 @@
 
     .logotype{
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
         justify-content: space-evenly;
         width: 40vw;
         height: 7.5vh;
@@ -606,11 +606,11 @@
         width: 25vw;
         height: 10vh;
         margin-left: 5vw;
-        margin-top: 0;
+        margin-top: 5vh;
     }
 
     .nav-logo img{
-        width: 60%;
+        width: 40%;
         height: auto;
     }
 
@@ -626,7 +626,7 @@
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 75vh;
+        height: 85vh;
     }
 
     .nav-items{
@@ -637,13 +637,13 @@
     }
 
     .navbar-links{
-        font-size: 7.5em;
+        font-size: 6.5em;
     }
 
     .navbar-links:hover{
-        transition: none;
-        transform: none;
-        opacity: 100;
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
     }
 
 
@@ -669,10 +669,9 @@
 
     .logotype{
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        width: 40vw;
+        flex-direction: row;
+        align-items: center;
+        width: 30vw;
         height: 7.5vh;
     }
 
@@ -689,31 +688,26 @@
         align-items: center;
         justify-content: space-between;
         height: 10vh;
-        width: 52.5vw;
+        width: 40vw;
     }
 
     .logo img{ 
-        width: 8.5vw;
+        width: 7.5vw;
         height: auto;
     }
 
 
     /* Nav Page  */
 
-    .nav-wrap{
-        width: 90;
-        margin: 0;
-    }
-
     .nav-logo{
         width: 25vw;
         height: 10vh;
         margin-left: 5vw;
-        margin-top: 0;
+        margin-top: 7.5vh;
     }
 
     .nav-logo img{
-        width: 60%;
+        width: 32.5%;
         height: auto;
     }
 
@@ -736,7 +730,107 @@
         display: flex;
         align-items: flex-start;
         width: 80vw;
-        height: 50vh;
+        height: 55vh;
+        margin-top: 15vh;
+    }
+
+    .navbar-links{
+        font-size: 6.25em;
+    }
+
+    .navbar-links:hover{
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1219px) {
+
+    /* Nav Bar */
+
+    .navigation-box{
+        height: 17.5vh;
+        width: 100vw;
+    }
+
+    .nav-wrap{
+        height: 12.5vh;
+        width: 90vw;
+    }
+
+    .logotype{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 22.5vw;
+        height: 7.5vh;
+    }
+
+    .logotype h3{
+        font-size: 1.1em;
+    }
+
+    .logotype h4{
+        font-size: 1.1em;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        width: 30vw;
+    }
+
+    .logo img{ 
+        width: 5.75vw;
+        height: auto;
+    }
+
+
+    /* Nav Page  */
+
+    .nav-logo{
+        width: 25vw;
+        height: 10vh;
+        margin-left: 5vw;
+        margin-top: 7.5vh;
+    }
+
+    .nav-logo img{
+        width: 22.5%;
+        height: auto;
+    }
+
+    .nav-overlay{
+        width: 100vw;
+        height: 30vh;
+        background-color: white;
+    }
+
+    .nav-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 75vh;
+    }
+
+    .nav-items{
+        display: flex;
+        align-items: flex-start;
+        width: 70vw;
+        height: 70vh;
+        margin-top: 15vh;
     }
 
     .navbar-links{
@@ -744,10 +838,9 @@
     }
 
     .navbar-links:hover{
-        transition: none;
-        transform: none;
-        opacity: 100;
+        transform: translateX(50px);
+        transition: transform 0.3s ease-in-out;
+        opacity: 80%;
     }
-
 
 }

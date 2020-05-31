@@ -1262,7 +1262,7 @@
 
     .home-start{
         justify-content: space-between;
-        height: 275vh;
+        height: 325vh;
         width: 100vw;
     }
 
@@ -1271,22 +1271,22 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 140vh;
+        height: 175vh;
         width: 100vw;
         box-sizing: border-box;
     }
 
     .image-slide{
-        height: 50vh;
+        height: 60vh;
         width: 70vw;
-        margin-top: 7.5vh;
+        margin-top: 10vh;
         grid-template-rows: minmax(60vh, 1vw);
         grid-auto-columns: none;
         z-index: auto;
     }
 
     .slidediv{
-        height: 50vh;
+        height: 60vh;
         width: 70vw;
     }
 
@@ -1296,7 +1296,7 @@
     }
 
     .portfolio-title {
-        margin-top: 60vh;
+        margin-top: 75vh;
         top: auto;
         width: 90vw;
         height: auto;
@@ -1304,7 +1304,7 @@
     }
 
     .portfolio-title h1{
-        font-size: 6.5em;
+        font-size: 7.5em;
     }
 
     .about-me{
@@ -1367,7 +1367,7 @@
         justify-content: flex-start;
         align-items: center;
         width: auto;
-        height: 250vh;
+        height: 275vh;
     }
 
     .project-header{
@@ -1402,8 +1402,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
-        height: 60vh;
+        align-items: center;
+        height: 75vh;
         width: 85vw;
         border-bottom: 0.1vh solid black;
     }
@@ -1414,7 +1414,7 @@
     }
 
     .project-link-image img{
-        height: 40vh;
+        height: 45vh;
         width: 47.5vw;
     }
 
@@ -1445,6 +1445,272 @@
 
     .date-hyphen{
         width: 5vw;
+        height: 0.1vh;
+    }
+
+    .project-name{
+        height: 20vh;
+    }
+
+    .project-name h2{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .project-desc{
+        height: 10vh;
+    }
+
+    .project-desc h3{
+        font-size: 1.25em;
+        margin: 0;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action */
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box{
+        justify-content: space-evenly;
+        height: 75vh;
+    }
+
+    .contact-box h1{
+        font-size: 4.5em;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .email-link{
+        width: 50vw;
+        height: auto;
+    }
+
+    .email-link h3{
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+
+    .email-link p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+  }
+
+
+
+
+  @media only screen and (min-width: 1219px) {
+
+
+    /* Home Page */
+
+    .home-wrap{
+        width: 100vw;
+        height: auto;
+    }
+
+    .home-start{
+        justify-content: space-between;
+        height: 375vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 175vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .image-slide{
+        height: 57.5vh;
+        width: 55vw;
+        margin-top: 10vh;
+        grid-template-rows: minmax(55vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 57.5vh;
+        width: 55vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        margin-top: 72.5vh;
+        top: auto;
+        width: 90vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 8.5em;
+    }
+
+    .about-me{
+        height: 45vh;
+        width: 90vw;
+    }
+
+    .about-me h1{
+        font-size: 3.5em;
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
+    .about-blurb2{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .about-blurb2 h2{
+        font-size: 2.75em;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .about-blurb-link h3{
+        font-size: 2em;
+        font-weight: 300;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 20vh;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 275vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .project-header h1{
+        writing-mode: horizontal-tb;
+        font-size: 4em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 225vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 75vh;
+        width: 85vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: auto;
+        width: 45vw;
+    }
+
+    .project-link-image img{
+        height: 50vh;
+        width: 42.5vw;
+    }
+
+    .project-info{
+        display: flex;
+        justify-content: space-between;
+        height: 40vh;
+        width: 30vw;
+    }
+
+    .project-infobox{
+        justify-content: space-evenly;
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 25vw;
+    }
+
+    .project-date{
+        width: 10vw;
+    }
+
+    .project-date p{
+        font-size: 1em;
+    }
+
+    .date-hyphen{
+        width: 2.5vw;
         height: 0.1vh;
     }
 
