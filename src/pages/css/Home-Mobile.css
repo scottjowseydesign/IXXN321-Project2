@@ -1,10 +1,9 @@
-
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 250px) {
 
     /* Home Page */
 
     .home-start{
-        height: 200vh;
+        height: 175vh;
         width: 100vw;
     }
 
@@ -13,7 +12,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 100vh;
+        height: 85vh;
         width: 100vw;
         box-sizing: border-box;
     }
@@ -29,7 +28,7 @@
 
     .slidediv{
         height: 25vh;
-        width: 75vw;
+        width: 85vw;
     }
 
     .slidediv img{
@@ -38,43 +37,44 @@
     }
 
     .portfolio-title {
-        margin-top: 45vh;
+        top: 60vh;
         width: 80vw;
         height: auto;
         z-index: 99;
     }
 
     .portfolio-title h1{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .about-me{
-        height: 25vh;
-        width: auto;
+        height: 15vh;
+        width: 90vw;
     }
 
     .about-me h1{
-        font-size: 1.75em;
-        margin-left: 5vw;
+        font-size: 1.25em;
         margin-top: 2vh;
     }
 
     .about-blurb2{
         height: 40vh;
-        width: auto;
+        width: 90vw;
     }
 
     .about-blurb2 h2{
-        font-size: 1.5em;
+        font-size: 1.25em;
+        font-weight: 600;
     }
 
     .about-blurb-link h3{
-        font-size: 1.25em;
+        font-size: 1em;
+        font-weight: 300;
     }
 
     .about-blurb-link{
         height: 30vh;
-        width: auto;
+        width: 90vw;
     }
     
     .blurb-text h3{
@@ -101,10 +101,10 @@
     .home-projects{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         width: auto;
-        height: 250vh;
+        height: 275vh;
     }
 
     .project-header{
@@ -138,7 +138,8 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        height: 70vh;
+        justify-content: space-evenly;
+        height: 80vh;
         width: 90vw;
         border-bottom: 0.1vh solid black;
     }
@@ -154,13 +155,13 @@
     }
 
     .project-info{
-        height: 40vh;
+        height: 37.5vh;
         width: 80vw;
     }
 
     .project-infobox{
         width: 75vw;
-        height: 22.5vh;
+        height: 25vh;
     }
 
     .project-desc, .project-name, .project-link{
@@ -174,6 +175,493 @@
     .date-hyphen{
         width: 10vw;
         height: 0.1vh;
+    }
+
+    .project-desc h3{
+        font-size: 1em;
+    }
+
+    .project-name{
+        height: 17.5vh;
+    }
+
+    .project-name h2{
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action Section*/
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box h1{
+        font-size: 2.75em;
+    }
+
+    .contact-box h2{
+        font-size: 1.5em;
+    }
+
+    .email-link{
+        width: 70vw;
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    .email-link h3{
+        font-size: 0.65em;
+    }
+
+    .email-link p{
+        font-size: 0.65em;
+        font-weight: 300;
+    }
+ 
+
+}
+
+
+
+
+
+@media only screen and (min-width: 319px) {
+
+    /* Home Page */
+
+    .home-start{
+        height: 200vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .image-slide{
+        height: 30vh;
+        width: 85vw;
+        margin-top: 10vh;
+        grid-template-rows: minmax(30vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 30vh;
+        width: 75vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        top: 60vh;
+        width: 80vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 2.75em;
+    }
+
+    .about-me{
+        height: 25vh;
+        width: auto;
+    }
+
+    .about-me h1{
+        font-size: 1.5em;
+        margin-left: 5vw;
+        margin-top: 2vh;
+    }
+
+    .about-blurb2{
+        height: 40vh;
+        width: 90;
+    }
+
+    .about-blurb2 h2{
+        font-size: 1.25em;
+        font-weight: 600;
+    }
+
+    .about-blurb-link h3{
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 275vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .title-wrap h1{
+        writing-mode: horizontal-tb;
+        font-size: 2em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 250vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 90vh;
+        width: 90vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: 25vh;
+        width: 80vw;
+    }
+
+    .project-link-image img{
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .project-info{
+        height: 37.5vh;
+        width: 80vw;
+    }
+
+    .project-infobox{
+        width: 75vw;
+        height: 25vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 100%;
+    }
+
+    .project-date{
+        width: 35vw;
+    }
+
+    .date-hyphen{
+        width: 10vw;
+        height: 0.1vh;
+    }
+
+    .project-desc h3{
+        font-size: 1em;
+    }
+
+    .project-name{
+        height: 17.5vh;
+    }
+
+    .project-name h2{
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action Section*/
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box h1{
+        font-size: 2.75em;
+    }
+
+    .contact-box h2{
+        font-size: 1.5em;
+    }
+
+    .email-link{
+        width: 70vw;
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    .email-link h3{
+        font-size: 0.75em;
+    }
+
+    .email-link p{
+        font-size: 0.75em;
+        font-weight: 300;
+    }
+ 
+
+}
+
+
+
+
+
+
+@media  only screen and (min-width: 376px)  {
+
+    /* Home Page */
+
+    .home-start{
+        height: 225vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 105vh;
+        width: 100vw;
+    }
+
+    .image-slide{
+        height: 32.5vh;
+        width: 80vw;
+        margin-top: 10vh;
+        grid-template-rows: minmax(32.5vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 32.5vh;
+        width: 80vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        top: 65vh;
+        width: 90vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 3.25em;
+    }
+
+    .about-me{
+        height: 45vh;
+        width: auto;
+    }
+
+    .about-me h1{
+        font-size: 1.75em;
+        margin-left: 5vw;
+        margin-top: 2vh;
+    }
+
+    .about-blurb2{
+        height: 40vh;
+        width: 90vw;
+    }
+
+    .about-blurb2 h2{
+        font-size: 1.5em;
+    }
+
+    .about-blurb-link h3{
+        font-size: 1.25em;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 10vh;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 325vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .title-wrap h1{
+        writing-mode: horizontal-tb;
+        font-size: 2.5em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 300vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 90vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: auto;
+        width: 80vw;
+    }
+
+    .project-link-image img{
+        height: 35vh;
+        width: 80vw;
+    }
+
+    .project-info{
+        height: 45vh;
+        width: 80vw;
+    }
+
+    .project-infobox{
+        width: 75vw;
+        height: 30vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 100%;
+    }
+
+    .project-date{
+        width: 35vw;
+    }
+
+    .date-hyphen{
+        width: 10vw;
+        height: 0.1vh;
+    }
+
+    .project-name{
+        height: 17.5vh;
     }
 
     .project-name h2{
@@ -217,3 +705,813 @@
  
 
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 580px) {
+
+
+    /* Home Page */
+
+    .home-wrap{
+        width: 100vw;
+        height: auto;
+    }
+
+    .home-start{
+        justify-content: space-between;
+        height: 275vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 125vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .image-slide{
+        height: 40vh;
+        width: 75vw;
+        margin-top: 7.5vh;
+        grid-template-rows: minmax(40vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 40vh;
+        width: 75vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        margin-top: 55vh;
+        top: auto;
+        width: 90vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 5em;
+    }
+
+    .about-me{
+        height: 45vh;
+        width: 90vw;
+    }
+
+    .about-me h1{
+        font-size: 2.5em;
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
+    .about-blurb2{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .about-blurb2 h2{
+        font-size: 2em;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .about-blurb-link h3{
+        font-size: 1.25em;
+        font-weight: 300;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 10vh;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 210vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .project-header h1{
+        writing-mode: horizontal-tb;
+        font-size: 3em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 175vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 50vh;
+        width: 85vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: auto;
+        width: 45vw;
+    }
+
+    .project-link-image img{
+        height: 30vh;
+        width: 45vw;
+    }
+
+    .project-info{
+        display: flex;
+        justify-content: space-between;
+        height: 35vh;
+        width: 35vw;
+    }
+
+    .project-infobox{
+        justify-content: space-evenly;
+        width: 40vw;
+        height: 25vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 40vw;
+    }
+
+    .project-date{
+        width: 20vw;
+    }
+
+    .project-date p{
+        font-size: 1em;
+    }
+
+    .date-hyphen{
+        width: 5vw;
+        height: 0.1vh;
+    }
+
+    .project-name{
+        height: 20vh;
+    }
+
+    .project-name h2{
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .project-desc{
+        height: 10vh;
+    }
+
+    .project-desc h3{
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action */
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box{
+        justify-content: space-evenly;
+        height: 75vh;
+    }
+
+    .contact-box h1{
+        font-size: 4.5em;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .email-link{
+        width: 50vw;
+        height: auto;
+    }
+
+    .email-link h3{
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+
+    .email-link p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 767px) {
+
+
+    /* Home Page */
+
+    .home-wrap{
+        width: 100vw;
+        height: auto;
+    }
+
+    .home-start{
+        justify-content: space-between;
+        height: 275vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 140vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .image-slide{
+        height: 50vh;
+        width: 70vw;
+        margin-top: 7.5vh;
+        grid-template-rows: minmax(60vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 50vh;
+        width: 70vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        margin-top: 60vh;
+        top: auto;
+        width: 90vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 6.5em;
+    }
+
+    .about-me{
+        height: 45vh;
+        width: 90vw;
+    }
+
+    .about-me h1{
+        font-size: 2.5em;
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
+    .about-blurb2{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .about-blurb2 h2{
+        font-size: 2em;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .about-blurb-link h3{
+        font-size: 1.25em;
+        font-weight: 300;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 10vh;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 250vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .project-header h1{
+        writing-mode: horizontal-tb;
+        font-size: 4em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 225vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 60vh;
+        width: 85vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: auto;
+        width: 45vw;
+    }
+
+    .project-link-image img{
+        height: 40vh;
+        width: 47.5vw;
+    }
+
+    .project-info{
+        display: flex;
+        justify-content: space-between;
+        height: 40vh;
+        width: 35vw;
+    }
+
+    .project-infobox{
+        justify-content: space-evenly;
+        width: 40vw;
+        height: 30vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 40vw;
+    }
+
+    .project-date{
+        width: 20vw;
+    }
+
+    .project-date p{
+        font-size: 1em;
+    }
+
+    .date-hyphen{
+        width: 5vw;
+        height: 0.1vh;
+    }
+
+    .project-name{
+        height: 20vh;
+    }
+
+    .project-name h2{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .project-desc{
+        height: 10vh;
+    }
+
+    .project-desc h3{
+        font-size: 1.25em;
+        margin: 0;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action */
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box{
+        justify-content: space-evenly;
+        height: 75vh;
+    }
+
+    .contact-box h1{
+        font-size: 4.5em;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .email-link{
+        width: 50vw;
+        height: auto;
+    }
+
+    .email-link h3{
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+
+    .email-link p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+  }
+
+
+
+
+  @media only screen and (min-width: 1023px) {
+
+
+    /* Home Page */
+
+    .home-wrap{
+        width: 100vw;
+        height: auto;
+    }
+
+    .home-start{
+        justify-content: space-between;
+        height: 275vh;
+        width: 100vw;
+    }
+
+    .home-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 140vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .image-slide{
+        height: 50vh;
+        width: 70vw;
+        margin-top: 7.5vh;
+        grid-template-rows: minmax(60vh, 1vw);
+        grid-auto-columns: none;
+        z-index: auto;
+    }
+
+    .slidediv{
+        height: 50vh;
+        width: 70vw;
+    }
+
+    .slidediv img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-title {
+        margin-top: 60vh;
+        top: auto;
+        width: 90vw;
+        height: auto;
+        z-index: 99;
+    }
+
+    .portfolio-title h1{
+        font-size: 6.5em;
+    }
+
+    .about-me{
+        height: 45vh;
+        width: 90vw;
+    }
+
+    .about-me h1{
+        font-size: 2.5em;
+        margin-top: 2vh;
+        margin-left: 0;
+    }
+
+    .about-blurb2{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .about-blurb2 h2{
+        font-size: 2em;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .about-blurb-link h3{
+        font-size: 1.25em;
+        font-weight: 300;
+    }
+
+    .about-blurb-link{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 10vh;
+    }
+    
+    .blurb-text h3{
+        margin-left: 0;
+    }
+
+    .blurb-link{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .blurb-link h4{
+        display: none;
+    }
+
+    .blurb-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+    /* Projects Section */
+    
+    .home-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 250vh;
+    }
+
+    .project-header{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .title-wrap{
+        display: flex;
+        align-items: flex-end;
+        width: 85vw;
+        height: 12.5vh;
+    }
+
+    .project-header h1{
+        writing-mode: horizontal-tb;
+        font-size: 4em;
+        
+    }
+
+    .project-div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 225vh;
+    }
+
+    .project-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 60vh;
+        width: 85vw;
+        border-bottom: 0.1vh solid black;
+    }
+
+    .project-link-image{
+        height: auto;
+        width: 45vw;
+    }
+
+    .project-link-image img{
+        height: 40vh;
+        width: 47.5vw;
+    }
+
+    .project-info{
+        display: flex;
+        justify-content: space-between;
+        height: 40vh;
+        width: 35vw;
+    }
+
+    .project-infobox{
+        justify-content: space-evenly;
+        width: 40vw;
+        height: 30vh;
+    }
+
+    .project-desc, .project-name, .project-link{
+        width: 40vw;
+    }
+
+    .project-date{
+        width: 20vw;
+    }
+
+    .project-date p{
+        font-size: 1em;
+    }
+
+    .date-hyphen{
+        width: 5vw;
+        height: 0.1vh;
+    }
+
+    .project-name{
+        height: 20vh;
+    }
+
+    .project-name h2{
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .project-desc{
+        height: 10vh;
+    }
+
+    .project-desc h3{
+        font-size: 1.25em;
+        margin: 0;
+    }
+
+    .project-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .project-link img{
+        height: 7.5vh;
+        width: auto;
+    }
+
+
+    /* Footer Call to Action */
+
+    .contact-wrap{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .contact-box{
+        justify-content: space-evenly;
+        height: 75vh;
+    }
+
+    .contact-box h1{
+        font-size: 4.5em;
+    }
+
+    .contact-box h2{
+        font-size: 2em;
+    }
+
+    .email-link{
+        width: 50vw;
+        height: auto;
+    }
+
+    .email-link h3{
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+
+    .email-link p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+  }
+
+
+

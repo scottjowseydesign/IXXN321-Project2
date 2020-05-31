@@ -29,18 +29,18 @@ export default function Home() {
                     </div>
                     <div className = "image-slide">
                         <Fade clear>
-                            <div className="slidediv">
-                            <img src= {Cordyceps} alt="Portfolio Piece"/>
-                            </div>
-                            <div className="slidediv">
-                            <img src= {Supply} alt="Portfolio Piece"/>
-                            </div>
-                            <div className="slidediv">
-                            <img src= {Anatomical} alt="Portfolio Piece"/>
-                            </div>
-                            <div className="slidediv">
-                            <img src= {Cuba} alt="Portfolio Piece"/>
-                            </div>
+                                <div className="slidediv">
+                                <img src= {Cordyceps} alt="Portfolio Piece"/>
+                                </div>
+                                <div className="slidediv">
+                                <img src= {Supply} alt="Portfolio Piece"/>
+                                </div>
+                                <div className="slidediv">
+                                <img src= {Anatomical} alt="Portfolio Piece"/>
+                                </div>
+                                <div className="slidediv">
+                                <img src= {Cuba} alt="Portfolio Piece"/>
+                                </div>
                         </Fade>
                             
                     </div>
