@@ -1,11 +1,16 @@
 .carousel-item{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: 70vw;
     height: auto;
+    margin-top: 10vh;
     overflow: hidden;
     
+}
+
+.carousel-item:hover{
+    opacity: 50%;
 }
 
 .carousel-item-image{

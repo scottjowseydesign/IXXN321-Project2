@@ -15,7 +15,7 @@ const navBanner = props => {
         <div className = {navClasses}>
             <div className = "nav-wrap">
                 <div className = "nav-logo">
-                    <Link to = "/home"><img src= { ScottLogo } alt="Scott Jowsey Logo"/>
+                    <Link to = "/" onClick={() => props.closeHandler()} ><img src= { ScottLogo } alt="Scott Jowsey Logo"/>
                     </Link>
                 </div>
 
@@ -24,9 +24,9 @@ const navBanner = props => {
             <div className = "nav-box">
                 <div className="wrap-nav">
                     <div className="nav-items">
-                        <Link to = "/rings " className = "navbar-links" onClick={() => props.closeHandler()}>PROJECTS</Link>
-                        <Link to= "/about" className = "navbar-links">ABOUT</Link>
-                        <Link to= "/contact" className = "navbar-links">CONTACT</Link>
+                        <Link to = "/projects " className = "navbar-links" onClick={() => props.closeHandler()}>PROJECTS</Link>
+                        <Link to= "/about" className = "navbar-links" onClick={() => props.closeHandler()}>ABOUT</Link>
+                        <Link to= "/contact" className = "navbar-links" onClick={() => props.closeHandler()}>CONTACT</Link>
                     </div>
                 </div>
                 

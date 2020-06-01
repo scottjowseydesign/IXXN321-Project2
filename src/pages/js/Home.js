@@ -9,7 +9,6 @@ import "../css/Home-Mobile.css";
 import Cordyceps from "../../assets/cordyceps.JPG";
 import Anatomical from "../../assets/ring-feature.JPG";
 import Supply from "../../assets/supply.jpg";
-import Cuba from "../../assets/151cuba.png";
 
 import ImageCarousel from "../../components/js/ImageCarousel";
 
@@ -31,23 +30,6 @@ export default function Home() {
                         </Fade>
                     </div>
                     <ImageCarousel />
-                    {/* <div className = "image-slide">
-                        <Fade clear>
-                                <div className="slidediv">
-                                <img src= {Cordyceps} alt="Portfolio Piece"/>
-                                </div>
-                                <div className="slidediv">
-                                <img src= {Supply} alt="Portfolio Piece"/>
-                                </div>
-                                <div className="slidediv">
-                                <img src= {Anatomical} alt="Portfolio Piece"/>
-                                </div>
-                                <div className="slidediv">
-                                <img src= {Cuba} alt="Portfolio Piece"/>
-                                </div>
-                        </Fade>
-                            
-                    </div> */}
                 </div>
                 <div className="about-me">
                     <Fade bottom>
