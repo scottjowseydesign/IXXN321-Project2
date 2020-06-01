@@ -10,7 +10,7 @@ import Burger from "../js/Burger";
             <div className = "navigation-box">
                 <div className = "nav-wrap">
                     <div className = "logo">
-                        <Link to = "/home" className = "logoCircle" >
+                        <Link to = "/" className = "logoCircle" >
                             <img src = {ScottLogo} alt = "Scott Jowsey Logo" />
                         </Link>
                         <div className = "logotype">

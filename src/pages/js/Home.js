@@ -11,7 +11,10 @@ import Anatomical from "../../assets/ring-feature.JPG";
 import Supply from "../../assets/supply.jpg";
 import Cuba from "../../assets/151cuba.png";
 
+import ImageCarousel from "../../components/js/ImageCarousel";
+
 import Fade from 'react-reveal/Fade';
+
 
 export default function Home() {
     return (
@@ -27,7 +30,8 @@ export default function Home() {
                             </h1>
                         </Fade>
                     </div>
-                    <div className = "image-slide">
+                    <ImageCarousel />
+                    {/* <div className = "image-slide">
                         <Fade clear>
                                 <div className="slidediv">
                                 <img src= {Cordyceps} alt="Portfolio Piece"/>
@@ -43,7 +47,7 @@ export default function Home() {
                                 </div>
                         </Fade>
                             
-                    </div>
+                    </div> */}
                 </div>
                 <div className="about-me">
                     <Fade bottom>

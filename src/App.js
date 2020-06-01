@@ -8,6 +8,7 @@ import Rings from "./pages/js/Rings";
 import CloseNav from "./components/js/closeNav";
 import Nav from "./components/js/Nav";
 import NavBanner from "./components/js/Nav-Banner";
+{/* <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" /> */}
 
 
 class App extends Component {
@@ -26,24 +27,16 @@ class App extends Component {
   };
 
   render() {
-    let closeNav;
-    
-    if (this.state.navBannerOpen) {
-      closeNav = <CloseNav click={this.closeNavClickHandler} />
-    }
 
     return (
       <div className="App" >
         
         <Router>
-          { closeNav }
+
+          { this.state.navBannerOpen && <CloseNav click={this.closeNavClickHandler} /> }
           <Nav burgerClickHandler={this.burgerClickHandler} />
-          <NavBanner show={this.state.navBannerOpen} />          
-          
-          
-          
-          <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
-          <Route path="/home" component={Home} />
+          <NavBanner show={this.state.navBannerOpen} closeHandler={this.closeNavClickHandler} />          
+          <Route path="/" component={Home} exact />
           <Route path="/nav" component={Nav} />
           <Route path="/about" component={About} />
           <Route path="/rings" component={Rings} />

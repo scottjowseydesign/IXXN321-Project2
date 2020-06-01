@@ -24,8 +24,7 @@ const navBanner = props => {
             <div className = "nav-box">
                 <div className="wrap-nav">
                     <div className="nav-items">
-
-                        <Link to = "/rings " className = "navbar-links">PROJECTS</Link>
+                        <Link to = "/rings " className = "navbar-links" onClick={() => props.closeHandler()}>PROJECTS</Link>
                         <Link to= "/about" className = "navbar-links">ABOUT</Link>
                         <Link to= "/contact" className = "navbar-links">CONTACT</Link>
                     </div>
